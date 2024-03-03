@@ -28,6 +28,8 @@ from sklearn.preprocessing import StandardScaler
 from tensorflow.keras.layers import LSTM
 !pip install hurst
 from hurst import compute_Hc
+from keras.models import Sequential
+from keras.layers import Dense
 
 # List of URLs
 url = [
